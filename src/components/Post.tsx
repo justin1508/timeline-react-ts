@@ -108,14 +108,9 @@ export function Post({ author, publishedAt, content }: PostProps) {
 			</form>
 
 			<div className={styles.commentList}>
-				{/* {comments.map(comment => {
+				{comments.map(comment => {
 					return <Comment key={comment} content={comment} onDeleteComment={deleteComment} />
-				})} */}
-
-				{comments.map(comment => <p>comment</p>)}
-				{comments.map(comment => <p>{comment}</p>)}
-
-
+				})}
 			</div>
 
 		</article>
